@@ -18,4 +18,5 @@ In this challenge I used Tinkercad to create a simple 3 led traffic light where 
 5. In the if statement : lightState variable is incremented to cycle thruogh the led states. We call updateTrafficLight() to update the LEDs based on the new state. We set buttonPressed to true to prevent further state changes until the button is released and pressed again.
 6. else statement checks If button is not pressed at all the button state stays high to prevent further changes.
 7. The updateTrafficLight() function is responsible for updating the state of the LEDs based on the current lightState variable. It turns on and off the LEDs accordingly.
+
 Link: https://www.tinkercad.com/things/6iIDEDD42Dw
