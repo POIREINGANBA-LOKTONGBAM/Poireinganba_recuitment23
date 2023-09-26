@@ -21,3 +21,17 @@ For the interior:
 2. The diagnostic ports.
 3. Capibilities of the dashboard.
 ### 2. Threat Modelling:
+To  threat model a car we need to collect information about the target and prepare a diagram to illustrate how the parts communicate with each other. We can threat model a car by drawing diagrams that show: level0- Attack surfaces, level1-Receiver(which recieves short range data), level2- internal workings of the car(Kernal).
+### 3. Threat Identification:
+Now that we have gone deeper into the internal workings of the car, we can figure out the various possible threats a car system has.  
+Some of the high level threats are:
+1. Remotely take over the vehical.
+2. Shut down the vehical.
+3. Spy on the vehical.
+4. Unlock the vehical.
+5. Steal a vehical.
+6. Track a vehical.
+7. Thwart safety systems.
+8. Install malware on the vehical.
+
+There are various levels how an attacker can enter the vehical's system: level1- Celular, wifi, keyfob, usb etc.(Eavesdrop, Jam signalls etc.), level2- Receiver breakdown
